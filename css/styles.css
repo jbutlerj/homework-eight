@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+html, body {
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  max-width: 1280px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #14253B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+header h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 0;
+  margin-left: 30px;
+}
+header nav {
+  width: 25%;
+  min-width: 325px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 30px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.hero {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 250px;
+  background-image: url(../images/hero.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#app {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+  border: solid 5px #14253B;
+}
+#app .images {
+  width: 80%;
+  min-width: 935px;
+  margin: 0 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: absolute;
+  top: -50px;
+}
+#app .images img {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: solid 5px #14253B;
+}
+#app .text {
+  width: 70%;
+  margin: 175px 15% 30px 15%;
+}
+#app .text h1 {
+  color: #14253B;
+  font-size: 36px;
+}
+#app .text p {
+  color: #14253B;
+  font-size: 24px;
+}
+
+footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 60px;
+  background-color: #14253B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0;
+}
